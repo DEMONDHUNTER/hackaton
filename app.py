@@ -7,5 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+app.route('/prueba2')
+def index2():
+    return render_template('index.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
