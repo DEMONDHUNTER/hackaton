@@ -11,6 +11,9 @@ app.route('/prueba2')
 def index2():
     return render_template('index.html')
 
+#Hola
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
